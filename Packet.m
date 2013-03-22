@@ -7,7 +7,6 @@
 //
 
 #import "Packet.h"
-#import "PacketSelectingPegs.h"
 #import "PacketSignInResponse.h"
 #import "NSData+MMAdditions.h"
 
@@ -68,11 +67,7 @@ const size_t PACKET_HEADER_SIZE = 10;
 			packet = [Packet packetWithType:packetType];
 			break;
             
-		case PacketTypeSelectingPegs:
-			packet = [PacketSelectingPegs packetWithData:data];
-			break;
-            
-        case PacketTypeSignInResponse:
+		case PacketTypeSignInResponse:
             packet = [PacketSignInResponse packetWithData:data];
 			break;
             
