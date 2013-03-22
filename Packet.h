@@ -1,12 +1,13 @@
 //
 //  Packet.h
-//  MasterMindPrototype6
+//  
 //
 //  Created by Mohammad Jeragh on 3/1/13.
 //  Copyright (c) 2013 Mohammad Jeragh. All rights reserved.
 //
 
 const size_t PACKET_HEADER_SIZE;
+
 
 typedef enum
 {

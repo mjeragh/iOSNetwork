@@ -19,7 +19,7 @@
 
 
 @interface Network : NSObject<GKSessionDelegate>
-@property(nonatomic) BOOL isServer;
+//@property(nonatomic) BOOL isServer;
 @property(nonatomic, strong) GKSession *session;
 @property (nonatomic, weak) id<NetworkDelegate> delegate;
 -(void)sendPacketSignInRequestTo:(NSString *)peerID;
