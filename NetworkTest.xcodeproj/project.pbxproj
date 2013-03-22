@@ -18,6 +18,13 @@
 		B2EFA4CD16F97CA50049A9B2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2EFA4CC16F97CA50049A9B2 /* Default-568h@2x.png */; };
 		B2EFA4D016F97CA50049A9B2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2EFA4CE16F97CA50049A9B2 /* MainStoryboard.storyboard */; };
 		B2EFA4D316F97CA50049A9B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EFA4D216F97CA50049A9B2 /* ViewController.m */; };
+		B2EFA4E016F97CF40049A9B2 /* Packet.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EFA4DB16F97CF40049A9B2 /* Packet.m */; };
+		B2EFA4E216F97CF40049A9B2 /* PacketSignInResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EFA4DF16F97CF40049A9B2 /* PacketSignInResponse.m */; };
+		B2EFA4E416F97D290049A9B2 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2EFA4E316F97D290049A9B2 /* GameKit.framework */; };
+		B2EFA4E716F97D5F0049A9B2 /* NSData+MMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EFA4E616F97D5F0049A9B2 /* NSData+MMAdditions.m */; };
+		B2EFA4EC16F97D830049A9B2 /* MatchmakingClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EFA4E916F97D830049A9B2 /* MatchmakingClient.m */; };
+		B2EFA4ED16F97D830049A9B2 /* MatchmakingServer.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EFA4EB16F97D830049A9B2 /* MatchmakingServer.m */; };
+		B2EFA4F016FC0FE90049A9B2 /* Network.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EFA4EF16FC0FE90049A9B2 /* Network.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +44,19 @@
 		B2EFA4CF16F97CA50049A9B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		B2EFA4D116F97CA50049A9B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B2EFA4D216F97CA50049A9B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B2EFA4DA16F97CF40049A9B2 /* Packet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Packet.h; sourceTree = "<group>"; };
+		B2EFA4DB16F97CF40049A9B2 /* Packet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Packet.m; sourceTree = "<group>"; };
+		B2EFA4DE16F97CF40049A9B2 /* PacketSignInResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketSignInResponse.h; sourceTree = "<group>"; };
+		B2EFA4DF16F97CF40049A9B2 /* PacketSignInResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PacketSignInResponse.m; sourceTree = "<group>"; };
+		B2EFA4E316F97D290049A9B2 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		B2EFA4E516F97D5F0049A9B2 /* NSData+MMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MMAdditions.h"; sourceTree = "<group>"; };
+		B2EFA4E616F97D5F0049A9B2 /* NSData+MMAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MMAdditions.m"; sourceTree = "<group>"; };
+		B2EFA4E816F97D830049A9B2 /* MatchmakingClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchmakingClient.h; sourceTree = "<group>"; };
+		B2EFA4E916F97D830049A9B2 /* MatchmakingClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchmakingClient.m; sourceTree = "<group>"; };
+		B2EFA4EA16F97D830049A9B2 /* MatchmakingServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchmakingServer.h; sourceTree = "<group>"; };
+		B2EFA4EB16F97D830049A9B2 /* MatchmakingServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchmakingServer.m; sourceTree = "<group>"; };
+		B2EFA4EE16FC0FE90049A9B2 /* Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Network.h; path = NetworkTest/Network.h; sourceTree = "<group>"; };
+		B2EFA4EF16FC0FE90049A9B2 /* Network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Network.m; path = NetworkTest/Network.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2EFA4E416F97D290049A9B2 /* GameKit.framework in Frameworks */,
 				B2EFA4B716F97CA50049A9B2 /* UIKit.framework in Frameworks */,
 				B2EFA4B916F97CA50049A9B2 /* Foundation.framework in Frameworks */,
 				B2EFA4BB16F97CA50049A9B2 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +77,7 @@
 		B2EFA4AA16F97CA50049A9B2 = {
 			isa = PBXGroup;
 			children = (
+				B2EFA4D916F97CBE0049A9B2 /* Network */,
 				B2EFA4BC16F97CA50049A9B2 /* NetworkTest */,
 				B2EFA4B516F97CA50049A9B2 /* Frameworks */,
 				B2EFA4B416F97CA50049A9B2 /* Products */,
@@ -73,6 +95,7 @@
 		B2EFA4B516F97CA50049A9B2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B2EFA4E316F97D290049A9B2 /* GameKit.framework */,
 				B2EFA4B616F97CA50049A9B2 /* UIKit.framework */,
 				B2EFA4B816F97CA50049A9B2 /* Foundation.framework */,
 				B2EFA4BA16F97CA50049A9B2 /* CoreGraphics.framework */,
@@ -83,6 +106,12 @@
 		B2EFA4BC16F97CA50049A9B2 /* NetworkTest */ = {
 			isa = PBXGroup;
 			children = (
+				B2EFA4E816F97D830049A9B2 /* MatchmakingClient.h */,
+				B2EFA4E916F97D830049A9B2 /* MatchmakingClient.m */,
+				B2EFA4EA16F97D830049A9B2 /* MatchmakingServer.h */,
+				B2EFA4EB16F97D830049A9B2 /* MatchmakingServer.m */,
+				B2EFA4E516F97D5F0049A9B2 /* NSData+MMAdditions.h */,
+				B2EFA4E616F97D5F0049A9B2 /* NSData+MMAdditions.m */,
 				B2EFA4C516F97CA50049A9B2 /* AppDelegate.h */,
 				B2EFA4C616F97CA50049A9B2 /* AppDelegate.m */,
 				B2EFA4CE16F97CA50049A9B2 /* MainStoryboard.storyboard */,
@@ -105,6 +134,19 @@
 				B2EFA4CC16F97CA50049A9B2 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2EFA4D916F97CBE0049A9B2 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B2EFA4DA16F97CF40049A9B2 /* Packet.h */,
+				B2EFA4DB16F97CF40049A9B2 /* Packet.m */,
+				B2EFA4DE16F97CF40049A9B2 /* PacketSignInResponse.h */,
+				B2EFA4DF16F97CF40049A9B2 /* PacketSignInResponse.m */,
+				B2EFA4EE16FC0FE90049A9B2 /* Network.h */,
+				B2EFA4EF16FC0FE90049A9B2 /* Network.m */,
+			);
+			name = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +218,12 @@
 				B2EFA4C316F97CA50049A9B2 /* main.m in Sources */,
 				B2EFA4C716F97CA50049A9B2 /* AppDelegate.m in Sources */,
 				B2EFA4D316F97CA50049A9B2 /* ViewController.m in Sources */,
+				B2EFA4E016F97CF40049A9B2 /* Packet.m in Sources */,
+				B2EFA4E216F97CF40049A9B2 /* PacketSignInResponse.m in Sources */,
+				B2EFA4E716F97D5F0049A9B2 /* NSData+MMAdditions.m in Sources */,
+				B2EFA4EC16F97D830049A9B2 /* MatchmakingClient.m in Sources */,
+				B2EFA4ED16F97D830049A9B2 /* MatchmakingServer.m in Sources */,
+				B2EFA4F016FC0FE90049A9B2 /* Network.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
